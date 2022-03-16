@@ -1,6 +1,6 @@
 # Pigeonhole
 
-We're the the only server team from JLU, for DSD course 2022.
+We're the a server team from JLU, for DSD course 2022.
 
 This repository is the homepage of the team, published by GitHub Pages and Cloudflare on https://pigeonhole.fun.
 
