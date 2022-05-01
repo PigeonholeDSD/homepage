@@ -11,8 +11,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Run a multi-line script
+      - name: Clone & Push
         run: |
+          git clone https://github.com/PigeonholeDSD/homepage.git
+          cd homepage
           git remote add liyu https://_:${{ secrets.LIYU_TOKEN }}@liyu.utad.pt/pigeonhole/homepage.git
           git push -u liyu --all --force
