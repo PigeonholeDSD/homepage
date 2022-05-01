@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Clone & Push
         run: |
-          git clone https://github.com/PigeonholeDSD/homepage.git
-          cd homepage
-          git remote add liyu https://_:${{ secrets.LIYU_TOKEN }}@liyu.utad.pt/pigeonhole/homepage.git
+          git clone https://github.com/PigeonholeDSD/${GITHUB_REPOSITORY##*/}.git
+          cd ${GITHUB_REPOSITORY##*/}
+          git remote add liyu https://_:${{ secrets.LIYU_TOKEN }}@liyu.utad.pt/pigeonhole/${GITHUB_REPOSITORY##*/}.git
           git push -u liyu --all --force
