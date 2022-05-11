@@ -1,198 +1,250 @@
 <!DOCTYPE HTML>
 <!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Template free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Solid State by HTML5 UP
+    html5up.net | @ajlkn
+    Template free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Pigeonhole</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			.spotlight h2 {
-				font-size: 1.5em;
-			}
-			.spotlight p {
-				font-size: 1.2em;
-				margin-bottom: 0.8em;
-			}
-		</style>
-	</head>
-	<body class="is-preload">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+<head>
+    <title>Pigeonhole</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <style>
+        abbr {
+            text-decoration: none;
+            border-bottom: #ccc 1px dotted;
+        }
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<div class="logo"><span class="icon solid fa-dove"></span></div>
-							<h2>Pigeonhole</h2>
-							<p>Server team from <abbr title="Jilin University">JLU</abbr>, for <abbr title="Distributed Software Development">DSD</abbr> 2022</p>
-						</div>
-					</section>
+        #banner p {
+            text-transform: none;
+        }
 
-				<!-- Wrapper -->
-					<section id="wrapper">
-						<!-- Content -->
-						<div class="wrapper">
-							<div class="inner">
+        h3 {
+            font-size: 1.2em;
+        }
 
-								<h3 class="major">Roles</h3>
-								<table>
-									<thead>
-										<tr>
-											<th></th>
-											<th>PM</th>
-											<th>Liasion</th>
-											<th>RA</th>
-											<th>Architect</th>
-											<th>Coder</th>
-											<th>Tester</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>In charge</td>
-											<td>Ciel</td>
-											<td>Magi</td>
-											<td>Magi</td>
-											<td>Ciel</td>
-											<td>Alex</td>
-											<td>Magi</td>
-										</tr>
-										<tr>
-											<td>Deputy</td>
-											<td>/</td>
-											<td>Alex</td>
-											<td>Ciel</td>
-											<td>Alex</td>
-											<td>Ciel</td>
-											<td>Alex</td>
-										</tr>
-									</tbody>
-								</table>
-								
-								<h3 class="major">Requirement Analysis</h3>
-								<section class="features">
-									<article>
-										<h4 class="major">Software Requirements Specification</h3>
-										<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p> -->
-										<a href="https://doc.ciel.pro/bC0if9fWTti6j5_izuPWmw?view" target="_blank" class="special">Read More</a>
-									</article>
-								</section>
+        h4 {
+            font-size: 1em;
+        }
 
-								<h3 class="major">System Design</h3>
-								<section class="features">
-									<article>
-										<h4 class="major">Template: Software Design Specification</h3>
-										<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p> -->
-										<a href="https://doc.ciel.pro/P6K-tFh8QEOwWJOhB8dnhQ?both" target="_blank" class="special">Open</a>
-									</article>
-									<article>
-										<h4 class="major">Interface Specification</h3>
-										<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p> -->
-										<a href="https://doc.ciel.pro/_nz-ppsiSa6RPzR7zwd6Bg?view" target="_blank" class="special">Read More</a>
-									</article>
-								</section>
+        .features article {
+            height: 100%;
+        }
 
-								<h3 class="major">Implementation & Test</h3>
-								<section class="features">
-									<article>
-										<h4 class="major">Template: Test Report</h3>
-										<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p> -->
-										<a href="https://doc.ciel.pro/AdAyGUWrTDi6NwRBumezOA?both" target="_blank" class="special">Open</a>
-									</article>
-									<article>
-										<h4 class="major">Cloud-side Server</h3>
-										<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p> -->
-										<a href="https://github.com/PigeonholeDSD/cloud-platform" target="_blank" class="special">GitHub</a>
-									</article>
-									<article>
-										<h4 class="major">Unit Test Report</h3>
-										<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p> -->
-										<a href="https://doc.ciel.pro/fSu8CNSTRQ-FiwvXLESNOg?view" target="_blank" class="special">Read More</a>
-									</article>
-								</section>
+        .features article p {
+            font-size: 1em;
+            font-style: italic;
+            font-weight: 700;
+        }
 
-							</div>
-						</div>
-						<!-- One -->
-							<section id="one" class="wrapper alt spotlight style1">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/cielzhao.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Ciel Zhao</h2>
-										<p>Loves playing with Linux server and desktop.</p>
-										<p>Co-chair of JLU Linux user group.</p>
-										<p>Operates AS211035 in clear-net, AS4242420817 in DN42.</p>
-										<p>Familiar with in Python, scripting, C/C++ and Git.</p>
-										<p>Generally knowledgeable in information security.</p>
-										<!-- <a href="#" class="special">Learn more</a> -->
-									</div>
-								</div>
-							</section>
+        .spotlight>.inner>.image {
+            flex: 1;
+        }
 
-						<!-- Two -->
-							<section id="two" class="wrapper spotlight style2">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/xiaoquanxu.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Xiaoquan Xu</h2>
-										<p>a.k.a. Magi, girl, 180 cm tall.</p>
-										<p>Good at mathematical analysis and modeling.</p>
-										<p>Able to use C++ and Python programming, ACM-ICPC gold medal.</p>
-										<p>Interested in quantum computation and quantum information.</p>
-										<p>Happy to communicate and debug for human creatures.</p>
-										<!-- <a href="#" class="special">Learn more</a> -->
-									</div>
-								</div>
-							</section>
+        .spotlight>.inner>.content {
+            flex: 3;
+        }
 
-						<!-- Three -->
-							<section id="three" class="wrapper alt spotlight style3">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/alexxu.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Alex Xu</h2>
-										<p>A programmer who likes to try everything.</p>
-										<p>Familiar with Python, C++ and deep learning frameworks.</p>
-										<p>Has some knowledge of Node.js and Vue, etc.</p>
-										<p>Has experience in server maintenance, Docker, NGINX and GitLab.</p>
-										<!-- <a href="#" class="special">Learn more</a> -->
-									</div>
-								</div>
-							</section>
-					</section>
+        .spotlight p {
+            margin-bottom: 1em;
+        }
 
-				<!-- Footer -->
-					<section id="footer">
-						<div class="inner">
-							<h2 class="major">Contact</h2>
-							<ul class="contact">
-								<li class="icon solid fa-envelope"><a id="email" target="_blank" href="#" onclick="document.getElementById('email').href=atob(emailHref)">Enable JavaScript to See</a></li>
-								<script>
-									let emailHref = '=YXZk5Cbll2YAVGbvhmbvV2ZpBnOvRHbpFWb'.split("").reverse().join("")
-									document.getElementById('email').text = decodeURIComponent(atob('=YXZkBjMlkCdChTJwgTJyUUJvRGKwITJsVWajBjMlkCdChTJwgTJyUUJhhCMyUSZs9Gau9WZnlGc'.split("").reverse().join("")))
-								</script>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Pigeonhole Team. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
+    </style>
+</head>
 
-			</div>
+<body class="is-preload">
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-	</body>
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <div class="logo"><span class="icon solid fa-dove"></span></div>
+                <h2>Pigeonhole</h2>
+                <p>Server team from Jilin University, for distributed software development course 2022.</p>
+            </div>
+        </section>
+
+        <!-- Wrapper -->
+        <section id="wrapper">
+            <!-- Content -->
+            <div class="wrapper">
+                <div class="inner">
+                    <h3 class="major">Requirement Analysis</h3>
+                    <section class="features">
+                        <article>
+                            <h4 class="major">Software Requirements Specification</h4>
+                            <p>This document will detail all of the application requirements as understood by the production team, guiding the installation and development process, ensuring that all system requirements are met.</p>
+                            <a href="https://doc.ciel.pro/bC0if9fWTti6j5_izuPWmw?view" target="_blank" class="special">Read More</a>
+                        </article>
+                    </section>
+
+                    <h3 class="major">System Design</h3>
+                    <section class="features">
+                        <article>
+                            <h4 class="major">Template: Software Design Specification</h4>
+                            <p>Markdown version of the Microsoft template of the Software Design Specification document.</p>
+                            <a href="https://doc.ciel.pro/P6K-tFh8QEOwWJOhB8dnhQ?both" target="_blank" class="special">Open</a>
+                        </article>
+                        <article>
+                            <h4 class="major">Interface Specification</h4>
+                            <p>The document reflects the consensus of teams on the modular division, defines how modules communicates with each other, providing a crucial basis of module design for developers and testers across teams.</p>
+                            <a href="https://doc.ciel.pro/_nz-ppsiSa6RPzR7zwd6Bg?view" target="_blank" class="special">Read More</a>
+                        </article>
+                    </section>
+
+                    <h3 class="major">Implementation & Test</h3>
+                    <section class="features">
+                        <article>
+                            <h4 class="major">Template: Test Report</h4>
+                            <p>Markdown version of the Microsoft template of the Test Report document.</p>
+                            <a href="https://doc.ciel.pro/AdAyGUWrTDi6NwRBumezOA?both" target="_blank" class="special">Open</a>
+                        </article>
+                        <article>
+                            <h4 class="major">Unit Test Report</h4>
+                            <p>This document provides the testing method and results, corresponding to the requirement from the customer. It consists of 3 parts, the testing cases, the test plan, and the testing results.</p>
+                            <a href="https://doc.ciel.pro/fSu8CNSTRQ-FiwvXLESNOg?view" target="_blank" class="special">Read More</a>
+                        </article>
+                        <article>
+                            <h4 class="major">Cloud-side Server</h4>
+                            <p>The cloud platform receives requests from frontend clients, interacts with the database and the algorithm, and aims at managing the whole system in a coherent, consistent and efficient manner. This repository automatically syncs to Liyu GitLab.</p>
+                            <a href="https://github.com/PigeonholeDSD/cloud-platform" target="_blank" class="special">GitHub</a>
+                        </article>
+                        <article>
+                            <h4 class="major">Device-side Server</h4>
+                            <p>The embedded device receives requests from frontend clients, controls the model predicting and the calibration process, and aims at a comprehensive interface for the frontend to control the device.</p>
+                            <a href="https://github.com/PigeonholeDSD/embedded-device" target="_blank" class="special">GitHub</a>
+                        </article>
+                        <article>
+                            <h4 class="major">Integration Test Report</h4>
+                            <p>This document provides the testing method and results, corresponding to the requirement from the customer. It consists of 3 parts, the testing cases, the test plan, and the testing results.</p>
+                            <a href="https://doc.ciel.pro/K0adXe7qQ1u_FkpqWuw3AA?view" target="_blank" class="special">Read More</a>
+                        </article>
+                    </section>
+
+                    <h3 class="major">2nd Iteration</h3>
+                    <p>Coming in a week...</p>
+                    <!-- <section class="features">
+                                    <article>
+                                        <h4 class="major">Software Requirements Specification</h4>
+                                        <p>This document will detail all of the application requirements as understood by the production team, guiding the installation and development process, ensuring that all system requirements are met.</p>
+                                        <a href="https://doc.ciel.pro/bC0if9fWTti6j5_izuPWmw?view" target="_blank" class="special">Read More</a>
+                                    </article>
+                                </section> -->
+
+                    <h3 class="major">Meet the Team</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>PM</th>
+                                <th>Liasion</th>
+                                <th>RA</th>
+                                <th>Architect</th>
+                                <th>Coder</th>
+                                <th>QA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>In charge</td>
+                                <td>Ciel</td>
+                                <td>Magi</td>
+                                <td>Magi</td>
+                                <td>Ciel</td>
+                                <td>Alex</td>
+                                <td>Magi</td>
+                            </tr>
+                            <tr>
+                                <td>Deputy</td>
+                                <td>/</td>
+                                <td>Alex</td>
+                                <td>Ciel</td>
+                                <td>Alex</td>
+                                <td>Ciel</td>
+                                <td>Alex</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- One -->
+            <section id="one" class="wrapper alt spotlight style1">
+                <div class="inner">
+                    <a href="#" class="image"><img src="images/cielzhao.png" alt="avatar"></a>
+                    <div class="content">
+                        <h3 class="major">Ciel Zhao</h3>
+                        <p>Loves playing with Linux server and desktop.</p>
+                        <p>Co-chair of JLU Linux user group.</p>
+                        <p>Operates AS211035 in clear-net, AS4242420817 in DN42.</p>
+                        <p>Familiar with in Python, scripting, C/C++ and Git.</p>
+                        <p>Generally knowledgeable in information security.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Two -->
+            <section id="two" class="wrapper spotlight style2">
+                <div class="inner">
+                    <a href="#" class="image"><img src="images/xiaoquanxu.jpg" alt="avatar"></a>
+                    <div class="content">
+                        <h3 class="major">Magi Xu</h3>
+                        <p>Girl good at mathematical analysis and modeling.</p>
+                        <p>Able to use C++ and Python programming, ACM-ICPC gold medal.</p>
+                        <p>Interested in quantum computation and quantum information.</p>
+                        <p>Happy to communicate and debug for human creatures.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Three -->
+            <section id="three" class="wrapper alt spotlight style3">
+                <div class="inner">
+                    <a href="#" class="image"><img src="images/alexxu.jpg" alt="avatar"></a>
+                    <div class="content">
+                        <h3 class="major">Alex Xu</h3>
+                        <p>A programmer who likes to try everything.</p>
+                        <p>Familiar with Python, C++ and deep learning frameworks.</p>
+                        <p>Has some knowledge of Node.js and Vue, etc.</p>
+                        <p>Has experience in server maintenance, Docker, NGINX and GitLab.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="inner">
+                <h3 class="major">Contact</h3>
+                <ul class="contact">
+                    <li class="icon solid fa-envelope"><a id="email" target="_blank" href="#" onclick="document.getElementById('email').href=atob(emailHref)">Enable JavaScript to See</a></li>
+                    <script>
+                        let emailHref = '=4Wdm5SZs9Gau9WZnlGcAR3YhRnbvNmOvRHbpFWb'.split('').reverse().join('')
+                        document.getElementById('email').text = decodeURIComponent(atob('=4WdmBjMlkCdChTJwgTJyUUJvRGKwITJlx2bo52bldWawBjMlkCdChTJwgTJyUUJhhCMyUCdjFGdu92Y'.split('').reverse().join('')))
+                    </script>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; Pigeonhole Team. All rights reserved.</li>
+                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
