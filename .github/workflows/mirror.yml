@@ -3,8 +3,6 @@
 name: Mirror to Liyu GitLab
 
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
